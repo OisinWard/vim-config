@@ -1,2 +1,2 @@
 publish:
-	cp ./.vimrc ~/.vimrc
+	cp ./vimrc ~/.vimrc
