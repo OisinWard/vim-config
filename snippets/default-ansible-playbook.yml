@@ -1,0 +1,7 @@
+---
+- name: Ansible template
+  hosts: localhost
+  become: true
+  tasks:
+  - name: Test simple play with ping
+    ping:
