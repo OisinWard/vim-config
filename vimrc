@@ -41,6 +41,8 @@ command! MakeTags !ctags -R .
 
 " Read an empty HTML template and move cursor to title
 nnoremap ,apb :-1read $HOME/.vim/snippets/default-ansible-playbook.yml<CR>
+nnoremap ,tpe :-1read $HOME/.vim/snippets/terraform-provider-eu.tf<CR>
+nnoremap ,tpu :-1read $HOME/.vim/snippets/terraform-provider-us.tf<CR>
 
 set paste
 set relativenumber
