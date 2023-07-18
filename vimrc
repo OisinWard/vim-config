@@ -40,7 +40,7 @@ command! MakeTags !ctags -R .
 " SNIPPETS:
 
 " Read an empty HTML template and move cursor to title
-nnoremap ,pb :-1read $HOME/.vim/snippets/default-ansible-playbook.yml<CR>
+nnoremap ,apb :-1read $HOME/.vim/snippets/default-ansible-playbook.yml<CR>
 
 set paste
 set relativenumber
