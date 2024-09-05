@@ -5,7 +5,7 @@ set nocompatible
 
 " Enable syntax and plugins (for netrw)
 syntax enable
-filetype plugin on
+filetype plugin indent on
 
 
 " FINDING FILES:
@@ -53,3 +53,9 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Tab settings
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+set autoindent
